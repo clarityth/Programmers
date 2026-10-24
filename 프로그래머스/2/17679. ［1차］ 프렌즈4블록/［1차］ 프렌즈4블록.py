@@ -60,5 +60,3 @@ def gravity(grid):
         while st:
             grid[tar_r][c] = st.pop()
             tar_r -= 1
-            
-    return
