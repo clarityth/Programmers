@@ -18,7 +18,7 @@ def solution(files):
                     is_number = True
                     continue
                     
-            elif is_number:
+            elif is_number and len(number) < 5:
                 if c.isdigit():
                     number += c
                 else:
